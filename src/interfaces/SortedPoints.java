@@ -9,7 +9,8 @@ import java.util.ArrayList;
  */
 public interface SortedPoints {
 
+    public ArrayList<MyPoint> arrayList = null;
     public void sortPoints(ArrayList<MyPoint> myPointArrayList);
-    public void getSortedPoints(ArrayList<MyPoint> myPointArrayList);
+    public ArrayList<MyPoint> getSortedPoints();
 
 }

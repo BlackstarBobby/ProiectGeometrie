@@ -9,6 +9,6 @@ import java.util.ArrayList;
  * Created by cretu on 12/12/2016.
  */
 public interface Triagles {
-    public void makeTriagle(ArrayList<MyPoint> myPoints);
-    public ArrayList<MyTriangle> getTringle();
+    public void makeTriagles(ArrayList<MyPoint> myPoints);
+    public ArrayList<MyTriangle> getTringles();
 }
