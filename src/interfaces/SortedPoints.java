@@ -13,4 +13,6 @@ public interface SortedPoints {
     public void sortPoints(ArrayList<MyPoint> myPointArrayList);
     public ArrayList<MyPoint> getSortedPoints();
 
+   // public double getArea();
+
 }
